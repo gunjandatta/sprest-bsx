@@ -1,0 +1,40 @@
+{
+  "name": "gd-sprest-bsx",
+  "version": "0.1.2",
+  "description": "",
+  "main": "build/index.js",
+  "typings": "build/index.d.ts",
+  "scripts": {
+    "all": "npm run clean && npm run build && npm run prod",
+    "clean": "node ./clean.js",
+    "build": "tsc && webpack --mode=development",
+    "prod": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunjandatta/sprest-bsx.git"
+  },
+  "keywords": [],
+  "author": "Gunjan Datta <me@dattabase.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gunjandatta/sprest-bsx/issues"
+  },
+  "homepage": "https://github.com/gunjandatta/sprest-bsx#readme",
+  "dependencies": {
+    "gd-bsx": "^0.2.8",
+    "gd-sprest-bs": "^4.4.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.0",
+    "@babel/preset-env": "^7.10.0",
+    "@babel/preset-react": "^7.10.0",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "babel-loader": "^8.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
