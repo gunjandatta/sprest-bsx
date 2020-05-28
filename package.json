@@ -1,6 +1,6 @@
 {
   "name": "gd-sprest-bsx",
-  "version": "0.1.2",
+  "version": "0.1.6",
   "description": "",
   "main": "build/index.js",
   "typings": "build/index.d.ts",

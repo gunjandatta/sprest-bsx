@@ -14,9 +14,14 @@ function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
 Object.defineProperty(exports, "__esModule", { value: true });
+// Export the $REST component
+var rest_1 = require("./rest");
+exports.$REST = rest_1.default;
+// Export the js components
+var lib_1 = require("./lib");
+exports.Components = lib_1.default;
 // Export the react components
 __export(require("./components"));
-debugger;
 // Update the global variable
 var SPComponents = require("./components");
 window["GD"] = __assign(__assign({}, window["GD"]), SPComponents);

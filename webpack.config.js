@@ -12,7 +12,7 @@ module.exports = (env, argv) => {
         externals: {
             "gd-bs": "GD",
             "gd-bsx": "GD",
-            "gd-sprest-bs": "GD"
+            "gd-sprest-bs": "$REST"
         },
         output: {
             path: path.resolve(__dirname, "dist"),

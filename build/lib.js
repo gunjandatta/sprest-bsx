@@ -12,11 +12,12 @@ var __assign = (this && this.__assign) || function () {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var gd_sprest_bs_1 = require("gd-sprest-bs");
+var rest_1 = require("./rest");
 // Ensure the Components reference exists
 if (gd_sprest_bs_1.Components == null) {
     // Update it to the global variable
-    console.log("[Dev] The components variable is null. Defaulting to the global variable.");
-    gd_sprest_bs_1.Components = __assign(__assign({}, (window["$REST"] && window["$REST"].Components)), (window["GD"] && window["GD"].Components));
+    console.log("[Dev-SP] The components variable is null. Defaulting to the global variable.");
+    gd_sprest_bs_1.Components = __assign(__assign({}, rest_1.default.Components), (window["GD"] && window["GD"].Components));
 }
 // This will ensure the export occurs at the end of the compiled file
 exports.default = gd_sprest_bs_1.Components;

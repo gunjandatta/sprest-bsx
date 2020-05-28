@@ -106,7 +106,7 @@ eval("\r\nvar __extends = (this && this.__extends) || (function () {\r\n    var 
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nvar __assign = (this && this.__assign) || function () {\r\n    __assign = Object.assign || function(t) {\r\n        for (var s, i = 1, n = arguments.length; i < n; i++) {\r\n            s = arguments[i];\r\n            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))\r\n                t[p] = s[p];\r\n        }\r\n        return t;\r\n    };\r\n    return __assign.apply(this, arguments);\r\n};\r\nfunction __export(m) {\r\n    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];\r\n}\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n// Export the react components\r\n__export(__webpack_require__(/*! ./components */ \"./build/components.js\"));\r\ndebugger;\r\n// Update the global variable\r\nvar SPComponents = __webpack_require__(/*! ./components */ \"./build/components.js\");\r\nwindow[\"GD\"] = __assign(__assign({}, window[\"GD\"]), SPComponents);\r\n\n\n//# sourceURL=webpack:///./build/index.js?");
+eval("\r\nvar __assign = (this && this.__assign) || function () {\r\n    __assign = Object.assign || function(t) {\r\n        for (var s, i = 1, n = arguments.length; i < n; i++) {\r\n            s = arguments[i];\r\n            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))\r\n                t[p] = s[p];\r\n        }\r\n        return t;\r\n    };\r\n    return __assign.apply(this, arguments);\r\n};\r\nfunction __export(m) {\r\n    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];\r\n}\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n// Export the $REST component\r\nvar rest_1 = __webpack_require__(/*! ./rest */ \"./build/rest.js\");\r\nexports.$REST = rest_1.default;\r\n// Export the js components\r\nvar lib_1 = __webpack_require__(/*! ./lib */ \"./build/lib.js\");\r\nexports.Components = lib_1.default;\r\n// Export the react components\r\n__export(__webpack_require__(/*! ./components */ \"./build/components.js\"));\r\n// Update the global variable\r\nvar SPComponents = __webpack_require__(/*! ./components */ \"./build/components.js\");\r\nwindow[\"GD\"] = __assign(__assign({}, window[\"GD\"]), SPComponents);\r\n\n\n//# sourceURL=webpack:///./build/index.js?");
 
 /***/ }),
 
@@ -118,7 +118,19 @@ eval("\r\nvar __assign = (this && this.__assign) || function () {\r\n    __assig
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nvar __assign = (this && this.__assign) || function () {\r\n    __assign = Object.assign || function(t) {\r\n        for (var s, i = 1, n = arguments.length; i < n; i++) {\r\n            s = arguments[i];\r\n            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))\r\n                t[p] = s[p];\r\n        }\r\n        return t;\r\n    };\r\n    return __assign.apply(this, arguments);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar gd_sprest_bs_1 = __webpack_require__(/*! gd-sprest-bs */ \"gd-sprest-bs\");\r\n// Ensure the Components reference exists\r\nif (gd_sprest_bs_1.Components == null) {\r\n    // Update it to the global variable\r\n    console.log(\"[Dev] The components variable is null. Defaulting to the global variable.\");\r\n    gd_sprest_bs_1.Components = __assign(__assign({}, (window[\"$REST\"] && window[\"$REST\"].Components)), (window[\"GD\"] && window[\"GD\"].Components));\r\n}\r\n// This will ensure the export occurs at the end of the compiled file\r\nexports.default = gd_sprest_bs_1.Components;\r\n\n\n//# sourceURL=webpack:///./build/lib.js?");
+eval("\r\nvar __assign = (this && this.__assign) || function () {\r\n    __assign = Object.assign || function(t) {\r\n        for (var s, i = 1, n = arguments.length; i < n; i++) {\r\n            s = arguments[i];\r\n            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))\r\n                t[p] = s[p];\r\n        }\r\n        return t;\r\n    };\r\n    return __assign.apply(this, arguments);\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar gd_sprest_bs_1 = __webpack_require__(/*! gd-sprest-bs */ \"gd-sprest-bs\");\r\nvar rest_1 = __webpack_require__(/*! ./rest */ \"./build/rest.js\");\r\n// Ensure the Components reference exists\r\nif (gd_sprest_bs_1.Components == null) {\r\n    // Update it to the global variable\r\n    console.log(\"[Dev-SP] The components variable is null. Defaulting to the global variable.\");\r\n    gd_sprest_bs_1.Components = __assign(__assign({}, rest_1.default.Components), (window[\"GD\"] && window[\"GD\"].Components));\r\n}\r\n// This will ensure the export occurs at the end of the compiled file\r\nexports.default = gd_sprest_bs_1.Components;\r\n\n\n//# sourceURL=webpack:///./build/lib.js?");
+
+/***/ }),
+
+/***/ "./build/rest.js":
+/*!***********************!*\
+  !*** ./build/rest.js ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar gd_sprest_bs_1 = __webpack_require__(/*! gd-sprest-bs */ \"gd-sprest-bs\");\r\nexports.$REST = gd_sprest_bs_1.$REST;\r\n// Ensure the $REST reference exists\r\nif (gd_sprest_bs_1.$REST == null) {\r\n    // Update it to the global variable\r\n    console.log(\"[Dev-SP] The $REST variable is null. Defaulting to the global variable.\");\r\n    gd_sprest_bs_1.$REST = window[\"$REST\"];\r\n}\r\n// This will ensure the export occurs at the end of the compiled file\r\nexports.default = gd_sprest_bs_1.$REST;\r\n\n\n//# sourceURL=webpack:///./build/rest.js?");
 
 /***/ }),
 
@@ -154,7 +166,7 @@ eval("\r\nvar __extends = (this && this.__extends) || (function () {\r\n    var 
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar gd_bs_1 = __webpack_require__(/*! gd-bs */ \"gd-sprest-bs\");\r\n// Ensure the Components reference exists\r\nif (gd_bs_1.Components == null) {\r\n    // Update it to the global variable\r\n    console.log(\"[Dev] The components variable is null. Defaulting to the global variable.\");\r\n    gd_bs_1.Components = window[\"GD\"] && window[\"GD\"].Components;\r\n}\r\n// This will ensure the export occurs at the end of the compiled file\r\nexports.default = gd_bs_1.Components;\r\n\n\n//# sourceURL=webpack:///./node_modules/.pnpm/registry.npmjs.org/gd-bsx/0.2.8/node_modules/gd-bsx/build/lib.js?");
+eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar gd_bs_1 = __webpack_require__(/*! gd-bs */ \"gd-bs\");\r\n// Ensure the Components reference exists\r\nif (gd_bs_1.Components == null) {\r\n    // Update it to the global variable\r\n    console.log(\"[Dev] The components variable is null. Defaulting to the global variable.\");\r\n    gd_bs_1.Components = window[\"GD\"] && window[\"GD\"].Components;\r\n}\r\n// This will ensure the export occurs at the end of the compiled file\r\nexports.default = gd_bs_1.Components;\r\n\n\n//# sourceURL=webpack:///./node_modules/.pnpm/registry.npmjs.org/gd-bsx/0.2.8/node_modules/gd-bsx/build/lib.js?");
 
 /***/ }),
 
@@ -312,7 +324,7 @@ eval("__webpack_require__(/*! ./node_modules/gd-sprest-bs/dist/gd-sprest-bs-icon
 
 /***/ }),
 
-/***/ "gd-sprest-bs":
+/***/ "gd-bs":
 /*!*********************!*\
   !*** external "GD" ***!
   \*********************/
@@ -320,6 +332,17 @@ eval("__webpack_require__(/*! ./node_modules/gd-sprest-bs/dist/gd-sprest-bs-icon
 /***/ (function(module, exports) {
 
 eval("module.exports = GD;\n\n//# sourceURL=webpack:///external_%22GD%22?");
+
+/***/ }),
+
+/***/ "gd-sprest-bs":
+/*!************************!*\
+  !*** external "$REST" ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = $REST;\n\n//# sourceURL=webpack:///external_%22$REST%22?");
 
 /***/ })
 
