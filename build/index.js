@@ -14,18 +14,19 @@ function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
 Object.defineProperty(exports, "__esModule", { value: true });
-// Export the $REST component
-var rest_1 = require("./rest");
-exports.$REST = rest_1.default;
-// Export the js components
+// Export the react components
+__export(require("./components"));
+__export(require("./sp-components"));
+// Export the components
 var lib_1 = require("./lib");
 exports.Components = lib_1.default;
 // Export the icons
-var gd_bsx_1 = require("gd-bsx");
-exports.Icons = gd_bsx_1.Icons;
-exports.IconTypes = gd_bsx_1.IconTypes;
-// Export the react components
-__export(require("./components"));
+var icons_1 = require("./icons");
+exports.Icons = icons_1.default;
+// Export the icon types
+var iconTypes_1 = require("./iconTypes");
+exports.IconTypes = iconTypes_1.default;
 // Update the global variable
-var SPComponents = require("./components");
-window["GD"] = __assign(__assign({}, window["GD"]), SPComponents);
+var BSComponents = require("./components");
+var SPComponents = require("./sp-components");
+window["GD"] = __assign(__assign(__assign({}, window["GD"]), BSComponents), SPComponents);

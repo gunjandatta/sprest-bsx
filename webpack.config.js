@@ -5,7 +5,7 @@ module.exports = (env, argv) => {
 
     // Return the configuration
     var config = {
-        entry: path.resolve(__dirname, "build/index.js"),
+        entry: path.resolve(__dirname, "src/index.ts"),
         output: {
             path: path.resolve(__dirname, "dist"),
             filename: "gd-sprest-bsx" + (isDev ? "" : ".min") + ".js"
@@ -25,6 +25,9 @@ module.exports = (env, argv) => {
                             options: {
                                 presets: ["@babel/preset-env", "@babel/preset-react"]
                             }
+                        },
+                        {
+                            loader: "ts-loader"
                         }
                     ]
                 }
