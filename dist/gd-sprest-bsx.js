@@ -285,7 +285,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar __assign = this && this.__assign || function () {\n  __assign = Object.assign || function (t) {\n    for (var s, i = 1, n = arguments.length; i < n; i++) {\n      s = arguments[i];\n\n      for (var p in s) {\n        if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];\n      }\n    }\n\n    return t;\n  };\n\n  return __assign.apply(this, arguments);\n};\n\nfunction __export(m) {\n  for (var p in m) {\n    if (!exports.hasOwnProperty(p)) exports[p] = m[p];\n  }\n}\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n}); // Export the react components\n\n__export(__webpack_require__(/*! ./components */ \"./src/components.ts\"));\n\n__export(__webpack_require__(/*! ./sp-components */ \"./src/sp-components.ts\")); // Export the components\n\n\nvar lib_1 = __webpack_require__(/*! ./lib */ \"./src/lib.ts\");\n\nexports.Components = lib_1[\"default\"]; // Export the icons\n\nvar icons_1 = __webpack_require__(/*! ./icons */ \"./src/icons.ts\");\n\nexports.Icons = icons_1[\"default\"]; // Export the icon types\n\nvar iconTypes_1 = __webpack_require__(/*! ./iconTypes */ \"./src/iconTypes.ts\");\n\nexports.IconTypes = iconTypes_1[\"default\"]; // Update the global variable\n\nvar BSComponents = __webpack_require__(/*! ./components */ \"./src/components.ts\");\n\nvar SPComponents = __webpack_require__(/*! ./sp-components */ \"./src/sp-components.ts\");\n\nwindow[\"GD\"] = __assign(__assign(__assign({}, window[\"GD\"]), BSComponents), SPComponents);\n\n//# sourceURL=webpack:///./src/index.ts?");
+eval("\n\nvar __assign = this && this.__assign || function () {\n  __assign = Object.assign || function (t) {\n    for (var s, i = 1, n = arguments.length; i < n; i++) {\n      s = arguments[i];\n\n      for (var p in s) {\n        if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];\n      }\n    }\n\n    return t;\n  };\n\n  return __assign.apply(this, arguments);\n};\n\nfunction __export(m) {\n  for (var p in m) {\n    if (!exports.hasOwnProperty(p)) exports[p] = m[p];\n  }\n}\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n}); // Export the react components\n\n__export(__webpack_require__(/*! ./components */ \"./src/components.ts\"));\n\n__export(__webpack_require__(/*! ./sp-components */ \"./src/sp-components.ts\")); // Export the components\n\n\nvar lib_1 = __webpack_require__(/*! ./lib */ \"./src/lib.ts\");\n\nexports.Components = lib_1[\"default\"]; // Export the icons\n\nvar icons_1 = __webpack_require__(/*! ./icons */ \"./src/icons.ts\");\n\nexports.Icons = icons_1[\"default\"]; // Export the icon types\n\nvar iconTypes_1 = __webpack_require__(/*! ./iconTypes */ \"./src/iconTypes.ts\");\n\nexports.IconTypes = iconTypes_1[\"default\"]; // Export the $REST library\n\nvar rest_1 = __webpack_require__(/*! ./rest */ \"./src/rest.ts\");\n\nexports.$REST = rest_1[\"default\"]; // Update the global variable\n\nvar BSComponents = __webpack_require__(/*! ./components */ \"./src/components.ts\");\n\nvar SPComponents = __webpack_require__(/*! ./sp-components */ \"./src/sp-components.ts\");\n\nwindow[\"GD\"] = __assign(__assign(__assign({}, window[\"GD\"]), BSComponents), SPComponents);\n\n//# sourceURL=webpack:///./src/index.ts?");
 
 /***/ }),
 
@@ -298,6 +298,18 @@ eval("\n\nvar __assign = this && this.__assign || function () {\n  __assign = Ob
 
 "use strict";
 eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar gd_sprest_bs_1 = __webpack_require__(/*! gd-sprest-bs */ \"./node_modules/.pnpm/registry.npmjs.org/gd-sprest-bs/4.5.0/node_modules/gd-sprest-bs/dist/gd-sprest-bs-icons.min.js\"); // Ensure the Components reference exists\n\n\nif (gd_sprest_bs_1.Components == null) {\n  // Update it to the global variable\n  console.log(\"[Dev] The components variable is null. Defaulting to the global variable.\");\n  gd_sprest_bs_1.Components = window[\"GD\"] && window[\"GD\"].Components;\n} // This will ensure the export occurs at the end of the compiled file\n\n\nexports[\"default\"] = gd_sprest_bs_1.Components;\n\n//# sourceURL=webpack:///./src/lib.ts?");
+
+/***/ }),
+
+/***/ "./src/rest.ts":
+/*!*********************!*\
+  !*** ./src/rest.ts ***!
+  \*********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar gd_sprest_bs_1 = __webpack_require__(/*! gd-sprest-bs */ \"./node_modules/.pnpm/registry.npmjs.org/gd-sprest-bs/4.5.0/node_modules/gd-sprest-bs/dist/gd-sprest-bs-icons.min.js\"); // Ensure the Components reference exists\n\n\nif (gd_sprest_bs_1.$REST == null) {\n  // Update it to the global variable\n  console.log(\"[SP-Dev] The $REST variable is null. Defaulting to the global variable.\");\n  gd_sprest_bs_1.$REST = window[\"$REST\"];\n} // This will ensure the export occurs at the end of the compiled file\n\n\nexports[\"default\"] = gd_sprest_bs_1.$REST;\n\n//# sourceURL=webpack:///./src/rest.ts?");
 
 /***/ }),
 

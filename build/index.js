@@ -26,6 +26,9 @@ exports.Icons = icons_1.default;
 // Export the icon types
 var iconTypes_1 = require("./iconTypes");
 exports.IconTypes = iconTypes_1.default;
+// Export the $REST library
+var rest_1 = require("./rest");
+exports.$REST = rest_1.default;
 // Update the global variable
 var BSComponents = require("./components");
 var SPComponents = require("./sp-components");

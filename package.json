@@ -1,7 +1,7 @@
 {
   "name": "gd-sprest-bsx",
-  "version": "0.2.0",
-  "description": "",
+  "version": "0.2.2",
+  "description": "Extends the gd-sprest-bs library as react components.",
   "main": "build/index.js",
   "typings": "build/index.d.ts",
   "scripts": {

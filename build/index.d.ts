@@ -6,3 +6,5 @@ import Icons from "./icons";
 export { Icons };
 import IconTypes from "./iconTypes";
 export { IconTypes };
+import $REST from "./rest";
+export { $REST };

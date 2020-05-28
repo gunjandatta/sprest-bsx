@@ -14,6 +14,10 @@ export { Icons }
 import IconTypes from "./iconTypes";
 export { IconTypes }
 
+// Export the $REST library
+import $REST from "./rest";
+export { $REST }
+
 // Update the global variable
 import * as BSComponents from "./components";
 import * as SPComponents from "./sp-components";
