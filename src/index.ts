@@ -6,6 +6,9 @@ export { $REST }
 import Components from "./lib";
 export { Components }
 
+// Export the icons
+export { Icons, IconTypes } from "gd-bsx";
+
 // Export the react components
 export * from "./components";
 

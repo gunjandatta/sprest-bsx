@@ -5,15 +5,7 @@ module.exports = (env, argv) => {
 
     // Return the configuration
     var config = {
-        entry: [
-            "./node_modules/gd-sprest-bs/dist/gd-sprest-bs-icons.min.js",
-            path.resolve(__dirname, "build/index.js")
-        ],
-        externals: {
-            "gd-bs": "GD",
-            "gd-bsx": "GD",
-            "gd-sprest-bs": "$REST"
-        },
+        entry: path.resolve(__dirname, "build/index.js"),
         output: {
             path: path.resolve(__dirname, "dist"),
             filename: "gd-sprest-bsx" + (isDev ? "" : ".min") + ".js"

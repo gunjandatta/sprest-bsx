@@ -20,6 +20,10 @@ exports.$REST = rest_1.default;
 // Export the js components
 var lib_1 = require("./lib");
 exports.Components = lib_1.default;
+// Export the icons
+var gd_bsx_1 = require("gd-bsx");
+exports.Icons = gd_bsx_1.Icons;
+exports.IconTypes = gd_bsx_1.IconTypes;
 // Export the react components
 __export(require("./components"));
 // Update the global variable
