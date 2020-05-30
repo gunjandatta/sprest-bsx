@@ -14,22 +14,13 @@ function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
 Object.defineProperty(exports, "__esModule", { value: true });
-// Export the react components
-__export(require("./components"));
-__export(require("./sp-components"));
-// Export the components
-var lib_1 = require("./lib");
-exports.Components = lib_1.default;
-// Export the icons
-var icons_1 = require("./icons");
-exports.Icons = icons_1.default;
-// Export the icon types
-var iconTypes_1 = require("./iconTypes");
-exports.IconTypes = iconTypes_1.default;
 // Export the $REST library
-var rest_1 = require("./rest");
-exports.$REST = rest_1.default;
+var gd_sprest_bs_1 = require("gd-sprest-bs");
+exports.$REST = gd_sprest_bs_1.$REST;
+// Export the bootstrap react library
+__export(require("gd-bsx"));
+// Export the react SharePoint components
+__export(require("./components"));
 // Update the global variable
-var BSComponents = require("./components");
-var SPComponents = require("./sp-components");
-window["GD"] = __assign(__assign(__assign({}, window["GD"]), BSComponents), SPComponents);
+var Components = require("./components");
+window["GD"] = __assign(__assign({}, window["GD"]), Components);

@@ -1,24 +1,13 @@
-// Export the react components
-export * from "./components";
-export * from "./sp-components";
-
-// Export the components
-import Components from "./lib";
-export { Components }
-
-// Export the icons
-import Icons from "./icons";
-export { Icons }
-
-// Export the icon types
-import IconTypes from "./iconTypes";
-export { IconTypes }
-
 // Export the $REST library
-import $REST from "./rest";
+import { $REST } from "gd-sprest-bs";
 export { $REST }
 
+// Export the bootstrap react library
+export * from "gd-bsx";
+
+// Export the react SharePoint components
+export * from "./components";
+
 // Update the global variable
-import * as BSComponents from "./components";
-import * as SPComponents from "./sp-components";
-window["GD"] = { ...window["GD"], ...BSComponents, ...SPComponents };
+import * as Components from "./components";
+window["GD"] = { ...window["GD"], ...Components };

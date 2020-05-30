@@ -1,10 +1,4 @@
-export * from "./components";
-export * from "./sp-components";
-import Components from "./lib";
-export { Components };
-import Icons from "./icons";
-export { Icons };
-import IconTypes from "./iconTypes";
-export { IconTypes };
-import $REST from "./rest";
+import { $REST } from "gd-sprest-bs";
 export { $REST };
+export * from "gd-bsx";
+export * from "./components";

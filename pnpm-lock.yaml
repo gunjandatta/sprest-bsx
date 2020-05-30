@@ -1,5 +1,6 @@
 dependencies:
-  gd-sprest-bs: 4.5.2
+  gd-bsx: 0.3.6
+  gd-sprest-bs: 4.5.4
 devDependencies:
   '@babel/core': 7.10.1
   '@babel/preset-env': 7.10.1_@babel+core@7.10.1
@@ -1380,6 +1381,16 @@ packages:
     dev: true
     resolution:
       integrity: sha512-40rZaf3bUNKTVYu9sIeeEGOg7g14Yvnj9kH7b50EiwX0Q7A6umbvfI5tvHaOERH0XigqKkfLkFQxzb4e6CIXnA==
+  /bootstrap/4.5.0_jquery@3.5.1+popper.js@1.16.1:
+    dependencies:
+      jquery: 3.5.1
+      popper.js: 1.16.1
+    dev: false
+    peerDependencies:
+      jquery: 1.9.1 - 3
+      popper.js: ^1.16.0
+    resolution:
+      integrity: sha512-Z93QoXvodoVslA+PWNdk23Hze4RBYIkpb5h8I2HY2Tu2h7A0LpAgLcyrhrSUyo2/Oxm2l1fRZPs1e5hnxnliXA==
   /brace-expansion/1.1.11:
     dependencies:
       balanced-match: 1.0.0
@@ -1473,7 +1484,7 @@ packages:
   /browserslist/4.12.0:
     dependencies:
       caniuse-lite: 1.0.30001066
-      electron-to-chromium: 1.3.453
+      electron-to-chromium: 1.3.455
       node-releases: 1.1.57
       pkg-up: 2.0.0
     dev: true
@@ -1906,10 +1917,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-07z8uv2wMyS51kKhD1KsdXJg5WQ6t93RneqRxUHnskXVtlYYkLqM0gqStQZ3pj073g687jPCHrqNfCzawLYh5g==
-  /electron-to-chromium/1.3.453:
+  /electron-to-chromium/1.3.455:
     dev: true
     resolution:
-      integrity: sha512-IQbCfjJR0NDDn/+vojTlq7fPSREcALtF8M1n01gw7nQghCtfFYrJ2dfhsp8APr8bANoFC8vRTFVXMOGpT0eetw==
+      integrity: sha512-4lwnxp+ArqOX9hiLwLpwhfqvwzUHFuDgLz4NTiU3lhygUzWtocIJ/5Vix+mWVNE2HQ9aI1k2ncGe5H/0OktMvA==
   /elliptic/6.5.2:
     dependencies:
       bn.js: 4.11.9
@@ -2228,19 +2239,29 @@ packages:
     dev: true
     resolution:
       integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
-  /gd-bs/2.5.0:
+  /gd-bs/2.5.6:
+    dependencies:
+      bootstrap: 4.5.0_jquery@3.5.1+popper.js@1.16.1
+      jquery: 3.5.1
+      popper.js: 1.16.1
     dev: false
     resolution:
-      integrity: sha512-njyspwZ64tQZ5Tt2DJQe/ORZX7PvQ+DcgRb0zPwrZzJZZ6zbw9hSSqRQxpOQSPFn0gt00XZIL0A5u5e053/jug==
-  /gd-sprest-bs/4.5.2:
+      integrity: sha512-jMj8agMvHwZkhrr2VG2MgFUp/O/AeRGjCLcOxw8eFepV4R2WA11mwsIc3o84DHriFoh1OdC2f/0FaCur9F52yw==
+  /gd-bsx/0.3.6:
+    dependencies:
+      gd-bs: 2.5.6
+    dev: false
+    resolution:
+      integrity: sha512-YC2or3UWHadLoHGMWyz3tlMKQj7Ql1yRERjbCLA8pK5Z3c2Yl/gm22Xu+65IpqhEhFWjxDf3ixTlvgD5vtxcLA==
+  /gd-sprest-bs/4.5.4:
     dependencies:
       dts-bundle: 0.7.3
-      gd-bs: 2.5.0
+      gd-bs: 2.5.6
       gd-sprest: 5.7.5
       gd-sprest-def: 0.7.8
     dev: false
     resolution:
-      integrity: sha512-S/fL3yPQulLK/s9IX7OcYRQauzq+yYZYiSK1MxXrzSMYOZrNp+/EzVo5IjEF33Uv5qIR9eqGqFOe0+bgY18hbg==
+      integrity: sha512-r/VTpCfs1wcfYqFKKDvqESkf6JS1cE3BtGSn5s++YR8qhRuUbFwUpDe1IzahYRNTec2RVS8JPjNySPb5o1x+mg==
   /gd-sprest-def/0.7.8:
     dev: false
     resolution:
@@ -2702,6 +2723,10 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
+  /jquery/3.5.1:
+    dev: false
+    resolution:
+      integrity: sha512-XwIBPqcMn57FxfT+Go5pzySnm4KWkT1Tv7gjrpT1srtf8Weynl6R273VJ5GjkRb51IzMp5nbaPjJXMWeju2MKg==
   /js-tokens/4.0.0:
     dev: true
     resolution:
@@ -3354,6 +3379,11 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha1-yBmscoBZpGHKscOImivjxJoATX8=
+  /popper.js/1.16.1:
+    deprecated: 'You can find the new Popper v2 at @popperjs/core, this package is dedicated to the legacy v1'
+    dev: false
+    resolution:
+      integrity: sha512-Wb4p1J4zyFTbM+u6WuO4XstYx4Ky9Cewe4DWrel7B0w6VVICvPwdOpotjzcf6eD8TsckVnIMNONQyPIUFOUbCQ==
   /posix-character-classes/0.1.1:
     dev: true
     engines:
@@ -4345,7 +4375,8 @@ specifiers:
   '@types/react': ^16.9.35
   '@types/react-dom': ^16.9.8
   babel-loader: ^8.1.0
-  gd-sprest-bs: ^4.5.2
+  gd-bsx: ^0.3.6
+  gd-sprest-bs: ^4.5.4
   react: ^16.13.1
   react-dom: ^16.13.1
   ts-loader: ^7.0.5
