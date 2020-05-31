@@ -5,7 +5,7 @@ module.exports = (env, argv) => {
 
     // Return the configuration
     var config = {
-        entry: path.resolve(__dirname, "src/index.ts"),
+        entry: path.resolve(__dirname, "build/index.js"),
         output: {
             path: path.resolve(__dirname, "dist"),
             filename: "gd-sprest-bsx" + (isDev ? "" : ".min") + ".js"
@@ -15,9 +15,9 @@ module.exports = (env, argv) => {
         },
         module: {
             rules: [
-                // Handle TypeScript Files
+                // Handle JavaScript Files
                 {
-                    test: /\.tsx?$/,
+                    test: /\.jsx?$/,
                     exclude: /node_modules/,
                     use: [
                         {
@@ -25,9 +25,6 @@ module.exports = (env, argv) => {
                             options: {
                                 presets: ["@babel/preset-env", "@babel/preset-react"]
                             }
-                        },
-                        {
-                            loader: "ts-loader"
                         }
                     ]
                 }
