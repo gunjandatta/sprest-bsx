@@ -23,4 +23,4 @@ __export(require("gd-bsx"));
 __export(require("./components"));
 // Update the global variable
 var Components = require("./components");
-window["GD"] = __assign(__assign({}, window["GD"]), Components);
+window["GD"] = __assign(__assign(__assign({}, window["GD"]), Components), { $REST: gd_sprest_bs_1.$REST });
