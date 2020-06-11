@@ -1,6 +1,6 @@
 dependencies:
   gd-bsx: 0.4.2
-  gd-sprest-bs: 4.6.6
+  gd-sprest-bs: 4.6.7
 devDependencies:
   '@babel/core': 7.10.2
   '@babel/preset-env': 7.10.2_@babel+core@7.10.2
@@ -2209,25 +2209,25 @@ packages:
     dev: false
     resolution:
       integrity: sha512-dahL0FZ2dhnjvNOWx90ZX4pa1YR68E0ZSRlPdkOv0e8HGMT3FloddK/p5PMY4sY77B7Zdcjkkhy4dX6qmlJpTw==
-  /gd-sprest-bs/4.6.6:
+  /gd-sprest-bs/4.6.7:
     dependencies:
       gd-bs: 2.6.4
-      gd-sprest: 5.7.8
+      gd-sprest: 5.8.0
       gd-sprest-def: 0.7.8
     dev: false
     resolution:
-      integrity: sha512-j0fXWqqDhBpcjjHXAXBVqQe91vKBKX/9OXutJkB5XUC5W7SeEF2nV/wdPLswXcZ1QX9LmifjrGu0shwftI0HVw==
+      integrity: sha512-qdJbSi11XoBQzBfnQ+SEskoLFnT0c7usUx6iAPXXVde4Jy3w0QbhKlDtdLFWSEkHrv53OEB0xS4wYRqP1g8udQ==
   /gd-sprest-def/0.7.8:
     dev: false
     resolution:
       integrity: sha512-p6VkuY5dP2IJMHeFRR1sp0gdHIDPOOuipxRwo8BrNQlDzGDM++lFCQxulgmPUONt66zdoh7ZxigxzNZcn8QQ8A==
-  /gd-sprest/5.7.8:
+  /gd-sprest/5.8.0:
     dependencies:
       core-js: 3.6.5
       gd-sprest-def: 0.7.8
     dev: false
     resolution:
-      integrity: sha512-6JW33MpKTkLYikvfnXawrzn3Q2eB97YTmTaKdF5ZUdhGl1QuXT9YtSZWZ1Y3cFdcJ8lMnf9Xr/cbmdjxvKqC3A==
+      integrity: sha512-ye6ZOiXrjmEHObwL7rzkWaLb1OFokiVOmxdfUMPctAdXSTR8EPaDl0LhM0mrEgufj4QumA8THPXwoxkbu90Vpw==
   /gensync/1.0.0-beta.1:
     dev: true
     engines:
@@ -4296,7 +4296,7 @@ specifiers:
   '@types/react-dom': ^16.9.8
   babel-loader: ^8.1.0
   gd-bsx: ^0.4.2
-  gd-sprest-bs: ^4.6.6
+  gd-sprest-bs: ^4.6.7
   react: ^16.13.1
   react-dom: ^16.13.1
   webpack: ^4.43.0
