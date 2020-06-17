@@ -1,6 +1,6 @@
 dependencies:
   gd-bsx: 0.4.4
-  gd-sprest-bs: 4.7.3
+  gd-sprest-bs: 4.7.4
 devDependencies:
   '@babel/core': 7.10.2
   '@babel/preset-env': 7.10.2_@babel+core@7.10.2
@@ -1462,8 +1462,8 @@ packages:
       integrity: sha512-Z942RysHXmJrhqk88FmKBVq/v5tqmSkDz7p54G/MGyjMnCFFnC79XWNbg+Vta8W6Wb2qtSZTSxIGkJrRpCFEiA==
   /browserslist/4.12.0:
     dependencies:
-      caniuse-lite: 1.0.30001083
-      electron-to-chromium: 1.3.473
+      caniuse-lite: 1.0.30001084
+      electron-to-chromium: 1.3.474
       node-releases: 1.1.58
       pkg-up: 2.0.0
     dev: true
@@ -1532,10 +1532,10 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
-  /caniuse-lite/1.0.30001083:
+  /caniuse-lite/1.0.30001084:
     dev: true
     resolution:
-      integrity: sha512-CnYJ27awX4h7yj5glfK7r1TOI13LBytpLzEgfj0s4mY75/F8pnQcYjL+oVpmS38FB59+vU0gscQ9D8tc+lIXvA==
+      integrity: sha512-ftdc5oGmhEbLUuMZ/Qp3mOpzfZLCxPYKcvGv6v2dJJ+8EdqcvZRbAGOiLmkM/PV1QGta/uwBs8/nCl6sokDW6w==
   /chalk/2.4.2:
     dependencies:
       ansi-styles: 3.2.1
@@ -1872,10 +1872,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-07z8uv2wMyS51kKhD1KsdXJg5WQ6t93RneqRxUHnskXVtlYYkLqM0gqStQZ3pj073g687jPCHrqNfCzawLYh5g==
-  /electron-to-chromium/1.3.473:
+  /electron-to-chromium/1.3.474:
     dev: true
     resolution:
-      integrity: sha512-smevlzzMNz3vMz6OLeeCq5HRWEj2AcgccNPYnAx4Usx0IOciq9DU36RJcICcS09hXoY7t7deRfVYKD14IrGb9A==
+      integrity: sha512-fPkSgT9IBKmVJz02XioNsIpg0WYmkPrvU1lUJblMMJALxyE7/32NGvbJQKKxpNokozPvqfqkuUqVClYsvetcLw==
   /elliptic/6.5.2:
     dependencies:
       bn.js: 4.11.9
@@ -1920,7 +1920,7 @@ packages:
       node: '>=6.9.0'
     resolution:
       integrity: sha512-F/7vkyTtyc/llOIn8oWclcB25KdRaiPBpZYDgJHgh/UHtpgT2p2eldQgtQnLtUvfMKPKxbRaQM/hHkvLHt1Vng==
-  /enhanced-resolve/4.1.1:
+  /enhanced-resolve/4.2.0:
     dependencies:
       graceful-fs: 4.2.4
       memory-fs: 0.5.0
@@ -1929,7 +1929,7 @@ packages:
     engines:
       node: '>=6.9.0'
     resolution:
-      integrity: sha512-98p2zE+rL7/g/DzMHMTF4zZlCgeVdJ7yr6xzEpJRYwFYrGi9ANdn5DnJURg6RpBkyk60XYDnWIv51VfIhfNGuA==
+      integrity: sha512-S7eiFb/erugyd1rLb6mQ3Vuq+EXHv5cpCkNqqIkYkBgN2QdFnyCZzFBleqwGEx4lgNGYij81BWnCrFNK7vxvjQ==
   /errno/0.1.7:
     dependencies:
       prr: 1.0.1
@@ -2195,28 +2195,28 @@ packages:
     dev: true
     resolution:
       integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
-  /gd-bs/2.6.8:
+  /gd-bs/2.6.9:
     dependencies:
       bootstrap: 4.5.0_jquery@3.5.1+popper.js@1.16.1
       jquery: 3.5.1
       popper.js: 1.16.1
     dev: false
     resolution:
-      integrity: sha512-qMKEmouOPLBzlGv4oaTwOghT02WR7glkMlgllVPR9Hqsh3OE+2N5EwB3UsoRPZ72F+jkKX4awQbBwiq92V7LSQ==
+      integrity: sha512-mC/4AyGAFi0emFQ1QGYuJI2TyRYEJyQNZZHtKSrIb2VO6KVLQ2wQWEWilMR+FLWlOsHY3ZIkT4S4cZBe+gdU2w==
   /gd-bsx/0.4.4:
     dependencies:
-      gd-bs: 2.6.8
+      gd-bs: 2.6.9
     dev: false
     resolution:
       integrity: sha512-iYWNOdhN8uX2B1W8UoRgT/it61Z6Fwu9xBRV0p0wJvl+1CVy04s40FPE4mehlTlllKCgKQTWpebrMr1yYmwahA==
-  /gd-sprest-bs/4.7.3:
+  /gd-sprest-bs/4.7.4:
     dependencies:
-      gd-bs: 2.6.8
+      gd-bs: 2.6.9
       gd-sprest: 5.8.2
       gd-sprest-def: 0.7.8
     dev: false
     resolution:
-      integrity: sha512-wXG0pb7HdjMjuOPViIG50KQC+Qo/d70nDBsfdIaJSlSRUIHFOPJHsqZSwrTqODxp9xk28zbptrmP2GCzhXMmPw==
+      integrity: sha512-taoe868Zgq/Lajpo1rHPym88o3JKYFiCtI5eJ4cBepCMnEasB2Ag4OfmHGMsqrR2HgCyQo6Ok6FSRMb+3xFInw==
   /gd-sprest-def/0.7.8:
     dev: false
     resolution:
@@ -3929,7 +3929,7 @@ packages:
       schema-utils: 1.0.0
       serialize-javascript: 3.1.0
       source-map: 0.6.1
-      terser: 4.7.0
+      terser: 4.8.0
       webpack: 4.43.0_webpack@4.43.0
       webpack-sources: 1.4.3
       worker-farm: 1.7.0
@@ -3940,7 +3940,7 @@ packages:
       webpack: ^4.0.0
     resolution:
       integrity: sha512-U4mACBHIegmfoEe5fdongHESNJWqsGU+W0S/9+BmYGVQDw1+c2Ow05TpMhxjPK1sRb7cuYq1BPl1e5YHJMTCqA==
-  /terser/4.7.0:
+  /terser/4.8.0:
     dependencies:
       commander: 2.20.3
       source-map: 0.6.1
@@ -3950,7 +3950,7 @@ packages:
       node: '>=6.0.0'
     hasBin: true
     resolution:
-      integrity: sha512-Lfb0RiZcjRDXCC3OSHJpEkxJ9Qeqs6mp2v4jf2MHfy8vGERmVDuvjXdd/EnP5Deme5F2yBRBymKmKHCBg2echw==
+      integrity: sha512-EAPipTNeWsb/3wLPeup1tVPaXfIaU68xMnVdPafIL1TV05OhASArYyIfFvnvJCNrR2NIOvDVNNTFRa+Re2MWyw==
   /through2/2.0.5:
     dependencies:
       readable-stream: 2.3.7
@@ -4197,7 +4197,7 @@ packages:
       ajv: 6.12.2
       ajv-keywords: 3.4.1_ajv@6.12.2
       chrome-trace-event: 1.0.2
-      enhanced-resolve: 4.1.1
+      enhanced-resolve: 4.2.0
       eslint-scope: 4.0.3
       json-parse-better-errors: 1.0.2
       loader-runner: 2.4.0
@@ -4296,7 +4296,7 @@ specifiers:
   '@types/react-dom': ^16.9.8
   babel-loader: ^8.1.0
   gd-bsx: ^0.4.4
-  gd-sprest-bs: ^4.7.3
+  gd-sprest-bs: ^4.7.4
   react: ^16.13.1
   react-dom: ^16.13.1
   webpack: ^4.43.0
