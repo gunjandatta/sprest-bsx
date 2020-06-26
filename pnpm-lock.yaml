@@ -1,6 +1,6 @@
 dependencies:
   gd-bsx: 0.4.9
-  gd-sprest-bs: 4.8.4
+  gd-sprest-bs: 4.8.5
 devDependencies:
   '@babel/core': 7.10.3
   '@babel/preset-env': 7.10.3_@babel+core@7.10.3
@@ -22,7 +22,7 @@ packages:
       integrity: sha512-fDx9eNW0qz0WkUeqL6tXEXzVlPh6Y5aCDEZesl0xBGA8ndRukX91Uk44ZqnkECp01NAZUdCAl+aiQNGi0k88Eg==
   /@babel/compat-data/7.10.3:
     dependencies:
-      browserslist: 4.12.1
+      browserslist: 4.12.2
       invariant: 2.2.4
       semver: 5.7.1
     dev: true
@@ -92,7 +92,7 @@ packages:
     dependencies:
       '@babel/compat-data': 7.10.3
       '@babel/core': 7.10.3
-      browserslist: 4.12.1
+      browserslist: 4.12.2
       invariant: 2.2.4
       levenary: 1.1.1
       semver: 5.7.1
@@ -921,7 +921,7 @@ packages:
       '@babel/plugin-transform-unicode-regex': 7.10.1_@babel+core@7.10.3
       '@babel/preset-modules': 0.1.3_@babel+core@7.10.3
       '@babel/types': 7.10.3
-      browserslist: 4.12.1
+      browserslist: 4.12.2
       core-js-compat: 3.6.5
       invariant: 2.2.4
       levenary: 1.1.1
@@ -1460,10 +1460,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-Z942RysHXmJrhqk88FmKBVq/v5tqmSkDz7p54G/MGyjMnCFFnC79XWNbg+Vta8W6Wb2qtSZTSxIGkJrRpCFEiA==
-  /browserslist/4.12.1:
+  /browserslist/4.12.2:
     dependencies:
       caniuse-lite: 1.0.30001088
-      electron-to-chromium: 1.3.481
+      electron-to-chromium: 1.3.483
       escalade: 3.0.1
       node-releases: 1.1.58
     dev: true
@@ -1471,7 +1471,7 @@ packages:
       node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7
     hasBin: true
     resolution:
-      integrity: sha512-WMjXwFtPskSW1pQUDJRxvRKRkeCr7usN0O/Za76N+F4oadaTdQHotSGcX9jT/Hs7mSKPkyMFNvqawB/1HzYDKQ==
+      integrity: sha512-MfZaeYqR8StRZdstAK9hCKDd2StvePCYp5rHzQCPicUjfFliDgmuaBNPHYUTpAywBN8+Wc/d7NYVFkO0aqaBUw==
   /buffer-from/1.1.1:
     dev: true
     resolution:
@@ -1702,7 +1702,7 @@ packages:
       integrity: sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
   /core-js-compat/3.6.5:
     dependencies:
-      browserslist: 4.12.1
+      browserslist: 4.12.2
       semver: 7.0.0
     dev: true
     resolution:
@@ -1874,10 +1874,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-07z8uv2wMyS51kKhD1KsdXJg5WQ6t93RneqRxUHnskXVtlYYkLqM0gqStQZ3pj073g687jPCHrqNfCzawLYh5g==
-  /electron-to-chromium/1.3.481:
+  /electron-to-chromium/1.3.483:
     dev: true
     resolution:
-      integrity: sha512-q2PeCP2PQXSYadDo9uNY+uHXjdB9PcsUpCVoGlY8TZOPHGlXdevlqW9PkKeqCxn2QBkGB8b6AcMO++gh8X82bA==
+      integrity: sha512-+05RF8S9rk8S0G8eBCqBRBaRq7+UN3lDs2DAvnG8SBSgQO3hjy0+qt4CmRk5eiuGbTcaicgXfPmBi31a+BD3lg==
   /elliptic/6.5.3:
     dependencies:
       bn.js: 4.11.9
@@ -2179,14 +2179,14 @@ packages:
     dev: false
     resolution:
       integrity: sha512-Wg9LX4HyvaDor3OhDshk6TSSaxzTHy4EA1os643o8IBek+gOlvkQVbMG3Gtn8B4VuSRfjOk1OjEjQqUJWYpn8Q==
-  /gd-sprest-bs/4.8.4:
+  /gd-sprest-bs/4.8.5:
     dependencies:
       gd-bs: 2.7.4
       gd-sprest: 5.8.4
       gd-sprest-def: 0.7.8
     dev: false
     resolution:
-      integrity: sha512-EnF5YLk9Ms0X+fYENauT/XBJNvxZEgAm1r3JUO8idSfaSP+fqzqzQelbR5ONZlDgQAJ9r/STR4VSMGELAmMdVw==
+      integrity: sha512-RIs/9HhnOdhugUwv1+1V8m2dhGDoYG5DacR/Sy5NS/ekJw9FZNIqw9cemcWKLaSlV8eUi2cs/wlyJ5mipileDg==
   /gd-sprest-def/0.7.8:
     dev: false
     resolution:
@@ -4118,7 +4118,7 @@ specifiers:
   '@types/react-dom': ^16.9.8
   babel-loader: ^8.1.0
   gd-bsx: ^0.4.9
-  gd-sprest-bs: ^4.8.4
+  gd-sprest-bs: ^4.8.5
   react: ^16.13.1
   react-dom: ^16.13.1
   webpack: ^4.43.0
