@@ -1,6 +1,6 @@
 dependencies:
   gd-bsx: 0.4.9
-  gd-sprest-bs: 4.8.6
+  gd-sprest-bs: 4.8.7
 devDependencies:
   '@babel/core': 7.10.3
   '@babel/preset-env': 7.10.3_@babel+core@7.10.3
@@ -1332,13 +1332,13 @@ packages:
     optional: true
     resolution:
       integrity: sha512-Un7MIEDdUC5gNpcGDV97op1Ywk748MpHcFTHoYs6qnj1Z3j7I53VG3nwZhKzoBZmbdRNnb6WRdFlwl7tSDuZGw==
-  /binary-extensions/2.0.0:
+  /binary-extensions/2.1.0:
     dev: true
     engines:
       node: '>=8'
     optional: true
     resolution:
-      integrity: sha512-Phlt0plgpIIBOGTT/ehfFnbNlfsDEiqmzE2KRXoX1bLIlir4X/MR+zSyBEkL05ffWgnRSf/DXv+WrUAVr93/ow==
+      integrity: sha512-1Yj8h9Q+QDF5FzhMs/c9+6UntbD5MkRfRwac8DoEm9ZfUBZ7tZ55YcGVAzEe4bXsdQHEk+s9S5wsOKVdZrw0tQ==
   /bindings/1.5.0:
     dependencies:
       file-uri-to-path: 1.0.0
@@ -1462,7 +1462,7 @@ packages:
       integrity: sha512-Z942RysHXmJrhqk88FmKBVq/v5tqmSkDz7p54G/MGyjMnCFFnC79XWNbg+Vta8W6Wb2qtSZTSxIGkJrRpCFEiA==
   /browserslist/4.12.2:
     dependencies:
-      caniuse-lite: 1.0.30001088
+      caniuse-lite: 1.0.30001090
       electron-to-chromium: 1.3.483
       escalade: 3.0.1
       node-releases: 1.1.58
@@ -1534,10 +1534,10 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
-  /caniuse-lite/1.0.30001088:
+  /caniuse-lite/1.0.30001090:
     dev: true
     resolution:
-      integrity: sha512-6eYUrlShRYveyqKG58HcyOfPgh3zb2xqs7NvT2VVtP3hEUeeWvc3lqhpeMTxYWBBeeaT9A4bKsrtjATm66BTHg==
+      integrity: sha512-QzPRKDCyp7RhjczTPZaqK3CjPA5Ht2UnXhZhCI4f7QiB5JK6KEuZBxIzyWnB3wO4hgAj4GMRxAhuiacfw0Psjg==
   /chalk/2.4.2:
     dependencies:
       ansi-styles: 3.2.1
@@ -2179,14 +2179,14 @@ packages:
     dev: false
     resolution:
       integrity: sha512-Wg9LX4HyvaDor3OhDshk6TSSaxzTHy4EA1os643o8IBek+gOlvkQVbMG3Gtn8B4VuSRfjOk1OjEjQqUJWYpn8Q==
-  /gd-sprest-bs/4.8.6:
+  /gd-sprest-bs/4.8.7:
     dependencies:
       gd-bs: 2.7.4
       gd-sprest: 5.8.4
       gd-sprest-def: 0.7.8
     dev: false
     resolution:
-      integrity: sha512-JQ7LhMo/QWj58e/eDVz/CN9zvA3w8NyUTfz9cYCjd5WXrHsSKItBXyrxguGnYoQFc3YMGjZVLBTwNqxtHMiczw==
+      integrity: sha512-iqkK9yiLJYauhMU2C2gwNne8J3BsDaVpouyNwFZZSqXAXi99huYSbqLHvjik1G3G3mxDMiCRGaPG324UA9sSVA==
   /gd-sprest-def/0.7.8:
     dev: false
     resolution:
@@ -2468,7 +2468,7 @@ packages:
       integrity: sha1-dfFmQrSA8YenEcgUFh/TpKdlWJg=
   /is-binary-path/2.1.0:
     dependencies:
-      binary-extensions: 2.0.0
+      binary-extensions: 2.1.0
     dev: true
     engines:
       node: '>=8'
@@ -4118,7 +4118,7 @@ specifiers:
   '@types/react-dom': ^16.9.8
   babel-loader: ^8.1.0
   gd-bsx: ^0.4.9
-  gd-sprest-bs: ^4.8.6
+  gd-sprest-bs: ^4.8.7
   react: ^16.13.1
   react-dom: ^16.13.1
   webpack: ^4.43.0
