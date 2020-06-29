@@ -1,6 +1,6 @@
 {
   "name": "gd-sprest-bsx",
-  "version": "0.5.8",
+  "version": "0.5.9",
   "description": "Extends the gd-sprest-bs library as react components.",
   "main": "build/index.js",
   "typings": "build/index.d.ts",
@@ -28,7 +28,7 @@
   "homepage": "https://github.com/gunjandatta/sprest-bsx#readme",
   "dependencies": {
     "gd-bsx": "^0.4.9",
-    "gd-sprest-bs": "^4.8.7"
+    "gd-sprest-bs": "^4.8.8"
   },
   "devDependencies": {
     "@babel/core": "^7.10.3",
