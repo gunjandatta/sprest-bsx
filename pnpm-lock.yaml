@@ -1,6 +1,6 @@
 dependencies:
-  gd-bsx: 0.5.1
-  gd-sprest-bs: 4.9.1
+  gd-bsx: 0.5.2
+  gd-sprest-bs: 4.9.2
 devDependencies:
   '@babel/core': 7.10.4
   '@babel/preset-env': 7.10.4_@babel+core@7.10.4
@@ -2165,28 +2165,28 @@ packages:
     dev: true
     resolution:
       integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
-  /gd-bs/2.7.7:
+  /gd-bs/2.7.8:
     dependencies:
       bootstrap: 4.5.0_jquery@3.5.1+popper.js@1.16.1
       jquery: 3.5.1
       popper.js: 1.16.1
     dev: false
     resolution:
-      integrity: sha512-Lcf8/bs9UC9c4k1IXHEOo8cD14a4PR51d9YpBjbtokdYP+9VDbm1TM4PAetBECdHFUh3OMAdCS9POmhKgbk4Ug==
-  /gd-bsx/0.5.1:
+      integrity: sha512-c3It5lu09/RQxKJXlXx2ijmOrERKkHl8ABKSqjSshei3HC3NEZVrGVKhtW0+3UWYL/XFx35uqGu9faU11W7/ZA==
+  /gd-bsx/0.5.2:
     dependencies:
-      gd-bs: 2.7.7
+      gd-bs: 2.7.8
     dev: false
     resolution:
-      integrity: sha512-EXojRImOCcIMbz7zDmNJ3Sq5GyQFXVkg36k6nDPj8mAiONIK9Vf4xeVUVG7GtNiIn8s7yC4+twCPOK5IqHSAVA==
-  /gd-sprest-bs/4.9.1:
+      integrity: sha512-Q6Nl8cVGw9GmyeyA+fuBMVepQNtOitrq4qft4zHvXXdWMyqYewNfxrPjqvpHrWloOyFndzmQC2l+En6S9PyhrQ==
+  /gd-sprest-bs/4.9.2:
     dependencies:
-      gd-bs: 2.7.7
+      gd-bs: 2.7.8
       gd-sprest: 5.8.4
       gd-sprest-def: 0.7.8
     dev: false
     resolution:
-      integrity: sha512-aWL7NhxsmaXAy4F2RcY06Q3VrBqVyD+VjrvK+NWc2ARbGwitDxSxp/gZ0bOyTWXCqh4iwnE+z1D2TloDXHtuow==
+      integrity: sha512-6y6bfraEq7ChlPslSGB4UxtoP10SRe037FyuCtIvcSOcoDHH8MJBkpKvmTsMW/1rNMVkwadCbSlgoGtTFS0Udw==
   /gd-sprest-def/0.7.8:
     dev: false
     resolution:
@@ -4117,8 +4117,8 @@ specifiers:
   '@types/react': ^16.9.41
   '@types/react-dom': ^16.9.8
   babel-loader: ^8.1.0
-  gd-bsx: ^0.5.1
-  gd-sprest-bs: ^4.9.1
+  gd-bsx: ^0.5.2
+  gd-sprest-bs: ^4.9.2
   react: ^16.13.1
   react-dom: ^16.13.1
   webpack: ^4.43.0
