@@ -1,6 +1,6 @@
 dependencies:
-  gd-bsx: 0.5.8
-  gd-sprest-bs: 5.0.5
+  gd-bsx: 0.5.9
+  gd-sprest-bs: 5.0.6
 devDependencies:
   '@babel/core': 7.10.4
   '@babel/preset-env': 7.10.4_@babel+core@7.10.4
@@ -2167,39 +2167,39 @@ packages:
     dev: true
     resolution:
       integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
-  /gd-bs/3.0.7:
+  /gd-bs/3.0.8:
     dependencies:
       bootstrap: 5.0.0-alpha1_popper.js@1.16.1
       popper.js: 1.16.1
     dev: false
     resolution:
-      integrity: sha512-//ify0jJu71mwULu/1Bvcy7ZXB3ysz9lORcueweKNGCuMt0/w0vsi1fxXrnWJshhxl2u2jiyJ4M5Z4zOEh+2XA==
-  /gd-bsx/0.5.8:
+      integrity: sha512-sxTLc3HLaFNR4vSuNzH71cfOmP6gfJ2GnfighiRA551wgCQkzy7oAGF5ladvmWQQlBVs09M46cQyXxOcTgqIyw==
+  /gd-bsx/0.5.9:
     dependencies:
-      gd-bs: 3.0.7
+      gd-bs: 3.0.8
     dev: false
     resolution:
-      integrity: sha512-6fn0CACgArJic1O0jp4Vs3V6kHVag/IfX5qcSJhLjHM8Idih45UO0hXWB/Yhs8ZUhXKMVyvmnMelyRHuSpfXtQ==
-  /gd-sprest-bs/5.0.5:
+      integrity: sha512-9DTuf5iL124Pn7vhDtN9cCFu2ceid5g+ZbMJuu7XcVg5i+zxCXBE/RoLj3Yw83Bv4cQgb4LKVnKb9ygLCh6Tiw==
+  /gd-sprest-bs/5.0.6:
     dependencies:
       flatpickr: 4.6.3
-      gd-bs: 3.0.7
-      gd-sprest: 5.8.5
+      gd-bs: 3.0.8
+      gd-sprest: 5.8.6
       gd-sprest-def: 0.7.8
     dev: false
     resolution:
-      integrity: sha512-d+ck5pws2pPHWLqO9u/4VE+836cMAYrdZi7PvyW8lflwyWvOq7LezsyDvUhxnk4my2CHNFQNSb4P2hASD32Wqw==
+      integrity: sha512-zkhR5Pac+tGij5ThZpCCcudL5x19ILzdgVW/xcJ+P4g7yv3antpOyQDC/eHaJ75Rk+RQv/BADkXuoa495BNuRg==
   /gd-sprest-def/0.7.8:
     dev: false
     resolution:
       integrity: sha512-p6VkuY5dP2IJMHeFRR1sp0gdHIDPOOuipxRwo8BrNQlDzGDM++lFCQxulgmPUONt66zdoh7ZxigxzNZcn8QQ8A==
-  /gd-sprest/5.8.5:
+  /gd-sprest/5.8.6:
     dependencies:
       core-js: 3.6.5
       gd-sprest-def: 0.7.8
     dev: false
     resolution:
-      integrity: sha512-xnNDAQXsf+ccfDvJyIa8bNwMjequZUIvh3tOEVo55wnbXx/uL52P2KZT/w4uouvO6G5Z2scjKzFQX3XUi0tRSQ==
+      integrity: sha512-p6vps9WqT24cibXXm3OSLRgjNXcXs8T3wuFBeh4j7HUjxecD9nAf5JeUjCHrbUmK/BSbxskoaRr5oP/dlzV7SQ==
   /gensync/1.0.0-beta.1:
     dev: true
     engines:
@@ -4108,8 +4108,8 @@ specifiers:
   '@types/react': ^16.9.41
   '@types/react-dom': ^16.9.8
   babel-loader: ^8.1.0
-  gd-bsx: ^0.5.8
-  gd-sprest-bs: ^5.0.5
+  gd-bsx: ^0.5.9
+  gd-sprest-bs: ^5.0.6
   react: ^16.13.1
   react-dom: ^16.13.1
   webpack: ^4.43.0
