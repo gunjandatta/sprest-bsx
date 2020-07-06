@@ -27,8 +27,8 @@
   },
   "homepage": "https://github.com/gunjandatta/sprest-bsx#readme",
   "dependencies": {
-    "gd-bsx": "^0.5.8",
-    "gd-sprest-bs": "^5.0.5"
+    "gd-bsx": "^0.5.9",
+    "gd-sprest-bs": "^5.0.6"
   },
   "devDependencies": {
     "@babel/core": "^7.10.4",
