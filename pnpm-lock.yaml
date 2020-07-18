@@ -1,6 +1,6 @@
 dependencies:
   gd-bsx: 0.6.1
-  gd-sprest-bs: 5.2.5
+  gd-sprest-bs: 5.2.7
 devDependencies:
   '@babel/core': 7.10.5
   '@babel/preset-env': 7.10.4_@babel+core@7.10.5
@@ -1459,7 +1459,7 @@ packages:
   /browserslist/4.13.0:
     dependencies:
       caniuse-lite: 1.0.30001102
-      electron-to-chromium: 1.3.499
+      electron-to-chromium: 1.3.500
       escalade: 3.0.2
       node-releases: 1.1.59
     dev: true
@@ -1870,10 +1870,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-07z8uv2wMyS51kKhD1KsdXJg5WQ6t93RneqRxUHnskXVtlYYkLqM0gqStQZ3pj073g687jPCHrqNfCzawLYh5g==
-  /electron-to-chromium/1.3.499:
+  /electron-to-chromium/1.3.500:
     dev: true
     resolution:
-      integrity: sha512-y7FwtQm/8xuLMnYQfBQDYzCpNn+VkSnf4c3Km5TWMNXg7JA5RQBuxmcLaKdDVcIK0K5xGIa7TlxpRt4BdNxNoA==
+      integrity: sha512-Zz8BZh4Ssb/rZBaicqpi+GOQ0uu3y+24+MxBLCk0UYt8EGoZRP4cYzYHHwXGZfrSbCU4VDjbWN+Tg+TPgOUX6Q==
   /elliptic/6.5.3:
     dependencies:
       bn.js: 4.11.9
@@ -2178,7 +2178,7 @@ packages:
     dev: false
     resolution:
       integrity: sha512-AyOSpl33Fl5764gLg06/rPMxbVMvfDAuSpHfNcensnwDx/sQYScj6XnsgSeaEOTetEPcTY5sAUNzAbshFfYOEQ==
-  /gd-sprest-bs/5.2.5:
+  /gd-sprest-bs/5.2.7:
     dependencies:
       flatpickr: 4.6.3
       gd-bs: 3.1.2
@@ -2186,7 +2186,7 @@ packages:
       gd-sprest-def: 0.7.8
     dev: false
     resolution:
-      integrity: sha512-qWP+KJkuYYwim8/9SwgSS/ok9d9a2OYoyMcff4akCdBGOWTvB4CqAVMC8qlw5TAUE9OVWjFd1Y8B1g56p3dVFA==
+      integrity: sha512-ob+aERhBn6PvJ1D+8dBUaMSydQ5Z2THyIFtbrr9qna3uiYEKRqgMQiJs2ygE4GsFsvqLljq+YK9TRe4mBoAZpw==
   /gd-sprest-def/0.7.8:
     dev: false
     resolution:
