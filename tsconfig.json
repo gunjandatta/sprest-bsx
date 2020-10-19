@@ -6,6 +6,7 @@
         ],
         "declaration": true,
         "outDir": "build",
+        "skipLibCheck": true,
         "target": "es5"
     },
     "include": [
