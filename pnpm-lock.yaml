@@ -1,3 +1,6 @@
+dependencies:
+  gd-bsx: 0.6.3
+  gd-sprest-bs: 6.1.4
 devDependencies:
   '@babel/core': 7.10.5
   '@babel/preset-env': 7.10.4_@babel+core@7.10.5
@@ -5,8 +8,6 @@ devDependencies:
   '@types/react': 16.9.43
   '@types/react-dom': 16.9.8
   babel-loader: 8.1.0_13c776b87d2822e76e5e552d0872621e
-  gd-bsx: 0.6.1
-  gd-sprest-bs: 6.1.4
   react: 16.13.1
   react-dom: 16.13.1_react@16.13.1
   webpack: 4.43.0_webpack@4.43.0
@@ -1356,7 +1357,7 @@ packages:
     resolution:
       integrity: sha512-40rZaf3bUNKTVYu9sIeeEGOg7g14Yvnj9kH7b50EiwX0Q7A6umbvfI5tvHaOERH0XigqKkfLkFQxzb4e6CIXnA==
   /bootstrap-icons/1.0.0:
-    dev: true
+    dev: false
     engines:
       node: '>=10'
     resolution:
@@ -1364,7 +1365,7 @@ packages:
   /bootstrap/5.0.0-alpha2_popper.js@1.16.1:
     dependencies:
       popper.js: 1.16.1
-    dev: true
+    dev: false
     peerDependencies:
       popper.js: ^1.16.1
     resolution:
@@ -1709,7 +1710,7 @@ packages:
     resolution:
       integrity: sha512-7ItTKOhOZbznhXAQ2g/slGg1PJV5zDO/WdkTwi7UEOJmkvsE32PWvx6mKtDjiMpjnR2CNf6BAD6sSxIlv7ptng==
   /core-js/3.6.5:
-    dev: true
+    dev: false
     requiresBuild: true
     resolution:
       integrity: sha512-vZVEEwZoIsI+vPEuoF9Iqf5H7/M3eeQqWlQnYa8FSKKePuYTf5MWnxb5SDAzCa60b3JBRS5g9b+Dq7b1y/RCrA==
@@ -2099,7 +2100,7 @@ packages:
     resolution:
       integrity: sha512-YbffarhcicEhOrm4CtrwdKBdCuz576RLdhJDsIfvNtxUuhdRet1qZcsMjqbePtAseKdAnDyM/IyXbu7PRPRLYg==
   /flatpickr/4.6.6:
-    dev: true
+    dev: false
     resolution:
       integrity: sha512-EZ48CJMttMg3maMhJoX+GvTuuEhX/RbA1YeuI19attP3pwBdbYy6+yqAEVm0o0hSBFYBiLbVxscLW6gJXq6H3A==
   /flush-write-stream/1.1.1:
@@ -2175,33 +2176,33 @@ packages:
       bootstrap: 5.0.0-alpha2_popper.js@1.16.1
       bootstrap-icons: 1.0.0
       popper.js: 1.16.1
-    dev: true
+    dev: false
     resolution:
       integrity: sha512-wGdu4XeX9o8Fb/Yhq5tCQN7xc2G998Fpyga9/E0yU1L8lx2Q+4/SeIus6ahK4QuLCJ47DEtox+4atcFs9OCobg==
-  /gd-bsx/0.6.1:
+  /gd-bsx/0.6.3:
     dependencies:
       gd-bs: 3.6.2
-    dev: true
+    dev: false
     resolution:
-      integrity: sha512-AyOSpl33Fl5764gLg06/rPMxbVMvfDAuSpHfNcensnwDx/sQYScj6XnsgSeaEOTetEPcTY5sAUNzAbshFfYOEQ==
+      integrity: sha512-FPI6ZiYsgtC4pxhTTQI18qak9ZuJ1E4OppJdwAZA/7XbR24XhCJzTg18HqHCg6Ldoo1oETU6qHpE7hgo4ckdQA==
   /gd-sprest-bs/6.1.4:
     dependencies:
       flatpickr: 4.6.6
       gd-bs: 3.6.2
       gd-sprest: 6.1.8
       gd-sprest-def: 0.9.7
-    dev: true
+    dev: false
     resolution:
       integrity: sha512-S96dcz66fkgU+BZNSAaKr2kzVLm189W3aVmAhKVlTSJiESsmyWwxr4sVoDM+1AH5r1adRcTU0QfLrSypfKmfaQ==
   /gd-sprest-def/0.9.7:
-    dev: true
+    dev: false
     resolution:
       integrity: sha512-lDn3qhZYXsUSG8Fakss4RlrSy45HU+iW7GRwE4WoO9w5D0opDh+5HrwpM6ziG6Xd4YAnz5B4YTgKcpmL5NwNLg==
   /gd-sprest/6.1.8:
     dependencies:
       core-js: 3.6.5
       gd-sprest-def: 0.9.7
-    dev: true
+    dev: false
     resolution:
       integrity: sha512-FPmPH2Ta/QRLVJf+dnsmCEEt2KxsRKx34byok1jUSNIwGk4Le5BwQO+KyoAC24NWNThGcgAYTnuSR1Fd+IPiqQ==
   /gensync/1.0.0-beta.1:
@@ -3151,7 +3152,7 @@ packages:
       integrity: sha512-/E57AYkoeQ25qkxMj5PBOVgF8Kiu/h7cYS30Z5+R7WaiCCBfLq58ZI/dSeaEKb9WVJV5n/03QwrN3IeWIFllvw==
   /popper.js/1.16.1:
     deprecated: 'You can find the new Popper v2 at @popperjs/core, this package is dedicated to the legacy v1'
-    dev: true
+    dev: false
     resolution:
       integrity: sha512-Wb4p1J4zyFTbM+u6WuO4XstYx4Ky9Cewe4DWrel7B0w6VVICvPwdOpotjzcf6eD8TsckVnIMNONQyPIUFOUbCQ==
   /posix-character-classes/0.1.1:
@@ -4112,8 +4113,8 @@ specifiers:
   '@types/react': ^16.9.43
   '@types/react-dom': ^16.9.8
   babel-loader: ^8.1.0
-  gd-bsx: ^0.6.1
-  gd-sprest-bs: ^6.1.4
+  gd-bsx: '*'
+  gd-sprest-bs: '*'
   react: ^16.13.1
   react-dom: ^16.13.1
   webpack: ^4.43.0
