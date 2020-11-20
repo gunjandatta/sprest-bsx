@@ -5,7 +5,7 @@ devDependencies:
   '@types/react': 16.9.43
   '@types/react-dom': 16.9.8
   babel-loader: 8.1.0_13c776b87d2822e76e5e552d0872621e
-  gd-bsx: 0.6.3
+  gd-bsx: 0.6.4
   gd-sprest-bs: 6.2.2
   react: 16.13.1
   react-dom: 16.13.1_react@16.13.1
@@ -2178,12 +2178,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-4CUV0aAaxFOHg1GaC3EcksJBL1AJqMsJPfZSolWFjOYMb5sZ5KrZdRqj1U7aMaUug21zV/MYi3aBl4QCEVUjFA==
-  /gd-bsx/0.6.3:
-    dependencies:
-      gd-bs: 3.7.1
+  /gd-bsx/0.6.4:
     dev: true
+    peerDependencies:
+      gd-bs: '*'
     resolution:
-      integrity: sha512-FPI6ZiYsgtC4pxhTTQI18qak9ZuJ1E4OppJdwAZA/7XbR24XhCJzTg18HqHCg6Ldoo1oETU6qHpE7hgo4ckdQA==
+      integrity: sha512-jCQNJmJcL/bIexdTBUEZ9VJe61pz4OpjoH3wzBfWb8+y4ucs6teMnPT1RxL3X9EVOBlHi6eNAroUIu2NSDT7nw==
   /gd-sprest-bs/6.2.2:
     dependencies:
       flatpickr: 4.6.6
